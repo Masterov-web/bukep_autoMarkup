@@ -1,0 +1,274 @@
+/* Result page style */
+html,
+body{
+  height: 100%;
+}
+
+body{
+  background-image: url(../img/bg.jpg);
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+  font-family: Arial;
+}
+
+.header{
+  margin: 0 auto;
+  width: 999px;
+  height: 245px;
+  background-image: url(../img/head.jpg);
+  background-position-x: 1px;
+}
+
+.input{
+  display: none;
+}
+
+.output{
+  margin: 0 auto;
+  padding: 32px;
+  width: 881px;
+  background-color: #fff;
+  border-left: 1px solid #2e3a4a;
+  border-right: 1px solid #2e3a4a;
+  box-shadow: 0 6px 0px 6px rgb(88, 128, 177), 0 7px 0px 7px rgb(128, 167, 208), 0 26px 0px 26px rgb(58, 105, 161);
+  font-family: Arial;
+  font-size: 14px;
+  line-height: 140%;
+}
+
+.output :first-child{
+  margin-top: 0;
+}
+
+.result-markup{
+  text-align: center;
+  width: 999px;
+  margin: -13px auto 0;
+}
+
+.save-arch-link{
+  color: #fff;
+}
+
+.text-content{
+  display: block;
+  margin: 13px auto 0;
+  width: 919px;
+  height: 250px;
+  padding: 20px;
+  border: 20px solid #3a69a1;  
+}
+
+.output p{
+  margin: 20px 0 0 0;
+  text-align: justify;
+}
+
+
+/* Style for images blocks */
+.img-block{
+  width: 100%;
+  text-align: center;
+}
+
+.img-block:after{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.img-item{
+  float: left;
+}
+
+.img-item img{
+  max-width: 640px
+}
+
+.img-item img + img{
+  margin-left: 15px;
+}
+
+.img-caption{
+  display: block;
+}
+/* Style for images blocks */
+
+table,
+td,
+th{
+  border: 1px solid #000;
+  border-collapse: collapse;
+}
+
+table{
+  width: 100%;
+}
+
+.output table p{
+  text-align: left;
+}
+
+.now{
+  display: block;
+}
+
+.preload-bg{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #4585bd;
+}
+
+.preload-text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: block;
+  margin: -40px 0 0 -125px;
+  height: 80px;
+  width: 250px;
+}
+
+.preload-text{
+  font-size: 52px;
+  font-family: arial;
+  color: #fff;
+}
+
+.wrapper-link{
+  margin: 0 auto;  
+  width: 999px;
+  background-color: #3a69a1;
+  text-align: center;
+}
+
+.box-save-arch{
+  margin-top: 40px;  
+}
+
+.box-back{
+  padding: 10px 0 20px;
+}
+/* Result page style */
+
+
+
+
+/* Index page style */
+.wrapper{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: #4585bd;
+  font-family: Arial;
+}
+
+.logo{
+  position: relative;
+  margin: 0;
+  padding: 25px 0 0 0;
+  color: #fff; 
+  font-size: 42px;
+  font-weight: normal;
+  text-align: center;
+  text-transform: uppercase;  
+  letter-spacing: 0.025em;
+}
+
+.convert-form{
+  color: #fff;
+  text-align: center;
+}
+
+.convert-form.dd-upload{
+  position: relative;
+  margin: 70px auto 0;  
+  width: 600px;
+  height: 300px;
+  border-radius: 5px;
+  background-color: #80a7d0;
+  outline: 2px dashed #b0d0f3;
+  outline-offset: -10px;
+}
+
+.convert-form.dd-upload.form-over{
+  background-color: #4585bd;
+}
+
+.label{
+  display: block;
+}
+
+.convert-file{
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+}
+
+.dd-upload .convert-file-label{
+  position: absolute;
+  top: 60%;
+  left: 0;
+  width: 100%;
+  cursor: pointer;
+}
+
+.dd-text{
+  display: none;
+}
+
+.setting-elements{
+  position: absolute;
+  bottom: -190px;
+  width: 100%;
+} 
+
+.convert-server-patch{
+  display: block;
+  margin: 10px 0 40px 0;
+  padding-left: 1%;
+  width: 99%;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+}
+
+.convert-button{
+  padding: 10px 0;
+  width: 100%;
+  border: 2px solid #b3dcff;
+  border-radius: 5px;
+  background: none;  
+  color: #fff;
+  font-size: 24px;
+  transition: border-color 0.25s, margin-top 0.75s;
+  cursor: pointer;
+}
+
+.convert-button:hover{
+  border: 2px solid #fff;
+}
+
+.copy-right{
+  position: absolute;
+  bottom: 10px;
+  display: block;
+  width: 100%;
+  height: 30px;
+  text-align: center;
+  color: #b3dcff;
+  text-decoration: none;
+  transition: color 0.25s;
+}
+
+.copy-right:hover{
+  color: #fff;
+}
+/* Index page style */

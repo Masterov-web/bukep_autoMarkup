@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Converter</title>
+</head>
+<body>
+  <div class="wrapper">
+    <h1 class="logo">Bukep doc to html converter</h1>
+    <form class="convert-form" action="upload_file.php" method="POST" enctype="multipart/form-data">      
+      
+      <label class="label convert-file-label" for="iFile"><strong>Выбирите файл</strong> <span class="dd-text">или перетащите его</span></label>
+      <input class="convert-file" type="file" name="filename" id="iFile">
+
+      <div class="setting-elements">
+        <label class="label" for="server-patch-label">Укажите строку пути</label>
+        <input class="convert-server-patch" type="text" name="serverPatch" value="">     
+
+        <input class="convert-button" type="submit" value="Конвертировать">
+      </div>
+
+    </form>
+    <a class="copy-right" href="http://vmasterov.ru">© Masterov</a>
+  </div>
+
+
+  <!-- Scripts -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <script src="js/ajax.js"></script>
+  <!-- Scripts -->
+</body>
+</html>
